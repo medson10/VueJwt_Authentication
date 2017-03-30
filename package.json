@@ -4,7 +4,7 @@
   "description": "A basic app built with Vue.js and use JWT",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "webpack-dev-server --inline --hot"
   },
   "repository": {
     "type": "git",
