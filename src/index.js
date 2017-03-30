@@ -17,8 +17,8 @@ auth.checkAuth();
 
 
 export var router = new VueRouter();
-// Instantiate a Lock
-export var lock = new Auth0Lock(YOUR_CLIENT_ID, YOUR_CLIENT_DOMAIN);
+ // Instantiate a Lock
+// export var lock = new Auth0Lock(YOUR_CLIENT_ID, YOUR_CLIENT_DOMAIN);
 
 // Set up routing and match routes to components
 router.map({
